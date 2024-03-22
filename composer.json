@@ -3,7 +3,7 @@
     "description": "Lite adjacency list for laravel.",
     "license": "MIT",
     "type": "library",
-    "version": "0.1",
+    "version": "0.2",
     "autoload": {
         "psr-4": {
             "Aximand\\LaraAdjacencyList\\": "src/"
