@@ -1,0 +1,29 @@
+{
+    "name": "aximand94/lara-adjacency-list",
+    "description": "Lite adjacency list for laravel.",
+    "license": "MIT",
+    "type": "library",
+    "version": "0.1",
+    "autoload": {
+        "psr-4": {
+            "Aximand\\LaraAdjacencyList\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bogdan Pristupa",
+            "email": "Dr.Moro94@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraAdjacencyList\\ServiceProvider"
+            ]
+        }
+    }
+}
