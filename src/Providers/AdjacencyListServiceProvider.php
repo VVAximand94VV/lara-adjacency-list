@@ -1,17 +1,11 @@
 <?php
-namespace Aximand\LaraAdjacencyList;
+namespace Aximand\LaraAdjacencyList\Providers;
 
 use Aximand\LaraAdjacencyList\Console\Commands\AddParentIdCommand;
-use Illuminate\Support\ServiceProvider as Provider;
+use Illuminate\Support\ServiceProvider;
 
-class ServiceProvider extends Provider
+class AdjacencyListServiceProvider extends ServiceProvider
 {
-
-    public function boot(): void
-    {
-
-    }
-
     public function register(): void
     {
         if ($this->app->runningInConsole()) {

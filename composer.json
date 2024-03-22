@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aximand\\LaraAdjacencyList\\ServiceProvider"
+                "Aximand\\LaraAdjacencyList\\Providers\\AdjacencyListServiceProvider"
             ]
         }
     }
