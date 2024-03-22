@@ -12,7 +12,7 @@
     "authors": [
         {
             "name": "Bogdan Pristupa",
-            "email": "Dr.Moro94@yandex.ru"
+            "email": "vvaximand94vv@gmail.com"
         }
     ],
     "require": {
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaraAdjacencyList\\ServiceProvider"
+                "Aximand\\LaraAdjacencyList\\ServiceProvider"
             ]
         }
     }
