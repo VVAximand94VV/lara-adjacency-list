@@ -5,6 +5,10 @@ namespace TwoCoffeeCups\LaraAdjacencyList\AdjacencyList\Relations;
 
 trait Ancestors
 {
+    /**
+     * Get parent
+     * @return mixed
+     */
     public function parent()
     {
         return $this->belongsTo(self::class, $this->getLocalIdName(), $this->getParentIdName())->first();
