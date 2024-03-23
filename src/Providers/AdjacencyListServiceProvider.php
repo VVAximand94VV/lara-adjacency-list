@@ -1,5 +1,5 @@
 <?php
-namespace Aximand\LaraAdjacencyList\Providers;
+namespace TwoCoffeeCups\LaraAdjacencyList\Providers;
 
 use Aximand\LaraAdjacencyList\Console\Commands\AddParentIdCommand;
 use Illuminate\Support\ServiceProvider;

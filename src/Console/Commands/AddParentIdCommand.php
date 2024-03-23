@@ -1,6 +1,6 @@
 <?php
 
-namespace Aximand\LaraAdjacencyList\Console\Commands;
+namespace TwoCoffeeCups\LaraAdjacencyList\Console\Commands;
 
 use Illuminate\Console\Command;
 

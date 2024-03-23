@@ -1,12 +1,12 @@
 {
-    "name": "aximand94/lara-adjacency-list",
+    "name": "twocoffeecups/lara-adjacency-list",
     "description": "Lite adjacency list for laravel.",
     "license": "MIT",
     "type": "library",
-    "version": "0.2",
+    "version": "0.2.1.0",
     "autoload": {
         "psr-4": {
-            "Aximand\\LaraAdjacencyList\\": "src/"
+            "TwoCoffeeCups\\LaraAdjacencyList\\": "src/"
         }
     },
     "authors": [
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aximand\\LaraAdjacencyList\\Providers\\AdjacencyListServiceProvider"
+                "TwoCoffeeCups\\LaraAdjacencyList\\Providers\\AdjacencyListServiceProvider"
             ]
         }
     }
