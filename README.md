@@ -20,7 +20,7 @@ composer require twocoffeecups/lara-adjacency-list
 <p>Use the AdjacencyList trait in your model:</p>
 
 ```
-use LaraAdjacencyList\AdjacencyList\HasAdjacencyList;
+use TwoCoffeeCups\LaraAdjacencyList\AdjacencyList\HasAdjacencyList;
 
 class YourModel extends Model
 {
@@ -49,7 +49,7 @@ php artisan adjacency-list:add-parent-id
 <p>If you already have a table with the parent and local keys, then you can redefine their names in the model:</p>
 
 ```
-use LaraAdjacencyList\AdjacencyList\HasAdjacencyList;
+use TwoCoffeeCups\LaraAdjacencyList\AdjacencyList\HasAdjacencyList;
 
 class YourModel extends Model
 {
