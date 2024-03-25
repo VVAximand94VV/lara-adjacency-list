@@ -3,6 +3,7 @@
 namespace TwoCoffeeCups\LaraAdjacencyList\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
 
 class AddParentIdCommand extends Command
 {
@@ -27,5 +28,15 @@ class AddParentIdCommand extends Command
     {
         $table = $this->ask('Enter a table name:');
         /** TODO: сделать добавление parentId */
+//        $query = DB::query("
+//            ALTER TABLE forum.tags
+//            ADD parentId BIGINT unsigned NULL,
+//            ADD FOREIGN KEY (parentId) REFERENCES $table(id);
+//        ");
+//        if($query){
+//            $this->info('The command was successful!');
+//        }else{
+//            $this->error('Error!');
+//        }
     }
 }

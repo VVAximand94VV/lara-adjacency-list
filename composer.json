@@ -3,7 +3,7 @@
     "description": "Lite adjacency list for laravel.",
     "license": "MIT",
     "type": "library",
-    "version": "0.2.1.0",
+    "version": "0.2.2.0",
     "autoload": {
         "psr-4": {
             "TwoCoffeeCups\\LaraAdjacencyList\\": "src/"

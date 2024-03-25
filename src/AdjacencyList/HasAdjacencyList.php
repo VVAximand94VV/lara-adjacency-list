@@ -7,8 +7,8 @@ use TwoCoffeeCups\LaraAdjacencyList\AdjacencyList\LocalKeys\GetParentId;
 use TwoCoffeeCups\LaraAdjacencyList\AdjacencyList\Relations\Ancestors;
 use TwoCoffeeCups\LaraAdjacencyList\AdjacencyList\Relations\Descendants;
 
-trait UseAdjacencyList
+trait HasAdjacencyList
 {
-    use GetLocaleId, GetParentId, Ancestors, Descendants;
+    use GetLocaleId, GetParentId, Ancestors, Descendants, UseQuery;
 
 }

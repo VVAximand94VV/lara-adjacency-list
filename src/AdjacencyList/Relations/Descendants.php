@@ -8,7 +8,7 @@ trait Descendants
 {
     public function children()
     {
-        return $this->hasMany(self::class, $this->getParentIdName(), $this->getLocalIdName());
+        return $this->hasMany(self::class, $this->getParentIdName(), $this->getLocalIdName())->get();
     }
 
     public function descendantsTree()
@@ -18,10 +18,10 @@ trait Descendants
 
     public function allDescendants()
     {
-        $descendants = $this->children()->get();
+        $descendants = $this->children();
         foreach($descendants as $descendant){
-            $descendants = $descendants->merge($descendant->children()->get());
-            if($descendant->children()->get()){
+            $descendants = $descendants->merge($descendant->children());
+            if($descendant->children()){
                 $descendants = $descendants->merge($descendant->allDescendants());
             }
         }
