@@ -78,7 +78,7 @@ class YourModel extends Model
 - ```allDescendants()``` Get descendants list.
 - ```allAncestorsAndMe()``` Get ancestors list, and self.
 
-<p>Use methods:</p>
+<p>Methods usage:</p>
 
 ```
 $node = Model::find($id);
