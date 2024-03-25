@@ -18,9 +18,9 @@ trait Descendants
 
     public function allDescendants()
     {
-        $descendants = $this->children();
+        $descendants = $this->children()->get();
         foreach($descendants as $descendant){
-            $descendants = $descendants->merge($descendant->children());
+            $descendants = $descendants->merge($descendant->children()->get();
             if($descendant->children()){
                 $descendants = $descendants->merge($descendant->allDescendants());
             }
