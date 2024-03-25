@@ -74,7 +74,6 @@ class YourModel extends Model
 - ```parent()``` Get parent node.
 - ```allAncestors()``` Get ancestors list.
 - ```allAncestorsAndMe()``` Get ancestors list, and self.
-- ```descendantsTree()``` Get descendants tree.
 - ```allDescendants()``` Get descendants list.
 - ```allAncestorsAndMe()``` Get ancestors list, and self.
 
