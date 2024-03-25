@@ -1,5 +1,4 @@
 # Lara Adjacency List
-<hr>
 
 <p>Simple plugin for working with a Adjacency List for laravel.</p>
 
@@ -7,12 +6,10 @@
 
 
 # Compatibility
-<hr>
 
 <p>Laravel 8.x + version.</p>
 
 # Installation
-<hr>
 
 <p>Install package:</p>
 
@@ -47,7 +44,6 @@ php artisan adjacency-list:add-parent-id
 ```
 
 # Usage
-<hr>
 
 ### Keys
 <p>If you already have a table with the parent and local keys, then you can redefine their names in the model:</p>
