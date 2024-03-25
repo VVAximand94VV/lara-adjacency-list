@@ -78,6 +78,13 @@ class YourModel extends Model
 - ```allDescendants()``` Get descendants list.
 - ```allAncestorsAndMe()``` Get ancestors list, and self.
 
+<p>Use methods:</p>
+
+```
+$node = Model::find($id);
+$node->allAncestors();
+```  
+
 ### Tree
 
 <p>The static method <code>getTree()</code> allows you to get a tree of all elements starting from the roots:</p> 
