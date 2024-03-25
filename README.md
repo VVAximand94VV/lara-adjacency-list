@@ -17,7 +17,7 @@
 composer require twocoffeecups/lara-adjacency-list
 ```
 
-<p>Use the AdjacencyList trait in your model:</p>
+<p>Use the HasAdjacencyList trait in your model:</p>
 
 ```
 use TwoCoffeeCups\LaraAdjacencyList\AdjacencyList\HasAdjacencyList;
