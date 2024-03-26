@@ -1,7 +1,7 @@
 <?php
 namespace TwoCoffeeCups\LaraAdjacencyList\Providers;
 
-use Aximand\LaraAdjacencyList\Console\Commands\AddParentIdCommand;
+use TwoCoffeeCups\LaraAdjacencyList\Console\Commands\AddParentIdCommand;
 use Illuminate\Support\ServiceProvider;
 
 class AdjacencyListServiceProvider extends ServiceProvider
